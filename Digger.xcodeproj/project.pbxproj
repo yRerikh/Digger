@@ -6,30 +6,10 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		EDBFF9931FA9ADEF00967C52 /* Digger.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBFF9911FA9ADEF00967C52 /* Digger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDBFF9A11FA9AE6700967C52 /* Digger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF9991FA9AE6600967C52 /* Digger.swift */; };
-		EDBFF9A21FA9AE6700967C52 /* String+Digger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF99A1FA9AE6600967C52 /* String+Digger.swift */; };
-		EDBFF9A31FA9AE6700967C52 /* DiggerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF99B1FA9AE6600967C52 /* DiggerDelegate.swift */; };
-		EDBFF9A41FA9AE6700967C52 /* DiggerCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF99C1FA9AE6600967C52 /* DiggerCache.swift */; };
-		EDBFF9A51FA9AE6700967C52 /* DiggerThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF99D1FA9AE6700967C52 /* DiggerThread.swift */; };
-		EDBFF9A61FA9AE6700967C52 /* DiggerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF99E1FA9AE6700967C52 /* DiggerHelper.swift */; };
-		EDBFF9A71FA9AE6700967C52 /* DiggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF99F1FA9AE6700967C52 /* DiggerManager.swift */; };
-		EDBFF9A81FA9AE6700967C52 /* DiggerSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF9A01FA9AE6700967C52 /* DiggerSeed.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
+		063E4C3824B4980500CEE50B /* Digger */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Digger; sourceTree = "<group>"; };
 		EDBFF98E1FA9ADEF00967C52 /* Digger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Digger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDBFF9911FA9ADEF00967C52 /* Digger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Digger.h; sourceTree = "<group>"; };
 		EDBFF9921FA9ADEF00967C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDBFF9991FA9AE6600967C52 /* Digger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digger.swift; sourceTree = "<group>"; };
-		EDBFF99A1FA9AE6600967C52 /* String+Digger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Digger.swift"; sourceTree = "<group>"; };
-		EDBFF99B1FA9AE6600967C52 /* DiggerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiggerDelegate.swift; sourceTree = "<group>"; };
-		EDBFF99C1FA9AE6600967C52 /* DiggerCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiggerCache.swift; sourceTree = "<group>"; };
-		EDBFF99D1FA9AE6700967C52 /* DiggerThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiggerThread.swift; sourceTree = "<group>"; };
-		EDBFF99E1FA9AE6700967C52 /* DiggerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiggerHelper.swift; sourceTree = "<group>"; };
-		EDBFF99F1FA9AE6700967C52 /* DiggerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiggerManager.swift; sourceTree = "<group>"; };
-		EDBFF9A01FA9AE6700967C52 /* DiggerSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiggerSeed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +26,7 @@
 		EDBFF9841FA9ADEF00967C52 = {
 			isa = PBXGroup;
 			children = (
+				063E4C3824B4980500CEE50B /* Digger */,
 				EDBFF9901FA9ADEF00967C52 /* Sources */,
 				EDBFF98F1FA9ADEF00967C52 /* Products */,
 			);
@@ -62,15 +43,6 @@
 		EDBFF9901FA9ADEF00967C52 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				EDBFF9911FA9ADEF00967C52 /* Digger.h */,
-				EDBFF9991FA9AE6600967C52 /* Digger.swift */,
-				EDBFF99C1FA9AE6600967C52 /* DiggerCache.swift */,
-				EDBFF99B1FA9AE6600967C52 /* DiggerDelegate.swift */,
-				EDBFF99E1FA9AE6700967C52 /* DiggerHelper.swift */,
-				EDBFF99F1FA9AE6700967C52 /* DiggerManager.swift */,
-				EDBFF9A01FA9AE6700967C52 /* DiggerSeed.swift */,
-				EDBFF99D1FA9AE6700967C52 /* DiggerThread.swift */,
-				EDBFF99A1FA9AE6600967C52 /* String+Digger.swift */,
 				EDBFF9921FA9ADEF00967C52 /* Info.plist */,
 			);
 			path = Sources;
@@ -83,7 +55,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDBFF9931FA9ADEF00967C52 /* Digger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,14 +127,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDBFF9A31FA9AE6700967C52 /* DiggerDelegate.swift in Sources */,
-				EDBFF9A51FA9AE6700967C52 /* DiggerThread.swift in Sources */,
-				EDBFF9A21FA9AE6700967C52 /* String+Digger.swift in Sources */,
-				EDBFF9A71FA9AE6700967C52 /* DiggerManager.swift in Sources */,
-				EDBFF9A41FA9AE6700967C52 /* DiggerCache.swift in Sources */,
-				EDBFF9A11FA9AE6700967C52 /* Digger.swift in Sources */,
-				EDBFF9A81FA9AE6700967C52 /* DiggerSeed.swift in Sources */,
-				EDBFF9A61FA9AE6700967C52 /* DiggerHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
