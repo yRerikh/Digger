@@ -215,9 +215,10 @@ extension DiggerManager{
 
 extension DiggerManager{
     
-    
-    
-    
+    public func taskState(for diggerURL: DiggerURL) -> URLSessionTask.State? {
+        return findDiggerSeed(with: diggerURL)?.downloadTask.state
+    }
+
     public func cancelTask(for diggerURL: DiggerURL) {
   
         switch isDiggerURLCorrect(diggerURL) {
